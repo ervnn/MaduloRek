@@ -16,7 +16,7 @@
         }
     </style>
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-    <title>Ngadu.id - Aplikasi Pengaduan Online</title>
+    <title>MaduloRek - Aplikasi Pengaduan Online</title>
 </head>
 
 <body>
