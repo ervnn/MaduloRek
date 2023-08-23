@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login Ngadu.id</title>
+	<title>Login MaduloRek</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -27,7 +27,7 @@
 				<form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
                     @csrf
 					<span class="login100-form-title">
-						Selamat Datang di Ngadu.id
+						Selamat Datang di MaduloRek
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
