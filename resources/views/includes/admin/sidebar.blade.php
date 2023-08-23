@@ -34,7 +34,7 @@
           <li class="nav-item">
             <a href="{{url('/admin/pengaduans')}}" class="nav-link">
               <p>
-                Pengaduan
+                Management Pengaduan
               </p>
             </a>
           </li>
