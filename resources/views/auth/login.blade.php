@@ -20,6 +20,16 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/util.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/main.css')}}">
 <!--===============================================================================================-->
+
+<style>
+	body {
+	  background-image: url('assets/img/texture.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	  background-size: 100% 100%;
+	}
+	</style>
 </head>
 <body>
 	<div class="limiter">

@@ -24,7 +24,7 @@ Dashboard
               <div class="inner">
                 <h3>{{ $pengaduan }}</h3>
 
-                <p>Jumlah Pengaduan</p>
+                <p>Jumlah Keluhan</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>

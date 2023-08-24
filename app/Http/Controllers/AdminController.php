@@ -64,4 +64,11 @@ class AdminController extends Controller
         $pdf = PDF::loadview('pages.admin.pengaduan.cetak', compact('pengaduan'))->setPaper('a4');
         return $pdf->download('laporan-pengaduan.pdf');
     }
+    public function dataPenduduk(Request $request)
+    {
+        $pengaduan = $request->input('id');
+        foreach ($daftarSsoId as $id) {
+            DB::insert("insert into pengaduans(id, user_id) values ('$id', '$request->userId')");
+        }
+    }
 }

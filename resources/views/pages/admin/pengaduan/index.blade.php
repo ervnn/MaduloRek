@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title')
-Data Pengaduan
+Data Keluhan
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@ Data Pengaduan
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
-    </div>
+</div>
 
     <div class="w-full mb-8 overflow-hidden rounded-lg shadow-xs">
       <div class="w-full overflow-x-auto">
@@ -30,6 +30,7 @@ Data Pengaduan
           <thead>
             <tr>
               <th scope="col">Foto</th>
+              <th scope="col">NIK</th>
               <th scope="col">Nama</th>
               <th scope="col">Tanggal</th>
               <th scope="col">Status</th>
@@ -46,6 +47,9 @@ Data Pengaduan
                     <img class=" h-32 w-35 " src="{{ asset('image/'.$item->image) }}" alt="" loading="lazy" />
                   </div>
                 </div>
+              </td>
+              <td class="px-4 py-3 text-sm">
+                {{$item->user_nik }} {{--bingung letak function $item--}}  
               </td>
               <td class="px-4 py-3 text-sm">
                 {{ $item->name }}
